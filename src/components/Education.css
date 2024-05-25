@@ -1,0 +1,17 @@
+.education {
+    margin: 20px 0;
+  }
+  
+  .education h2 {
+    font-size: 24px;
+  }
+  
+  .education ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .education li {
+    margin-bottom: 10px;
+  }
+  

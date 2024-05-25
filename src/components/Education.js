@@ -4,14 +4,23 @@ import './Education.css';
 const Education = () => {
   return (
     <section className="education">
-      <h2>Education</h2>
+      <h2>Education & Training</h2>
       <ul>
         <li>
-          <h3>University Name</h3>
-          <p>Degree, Field of Study</p>
-          <p>Year of Graduation</p>
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>University of Oregon at Eugene, Oregon</p>
+          <p>September 2020 - June 2024</p>
         </li>
-        {/* Add more education details as needed */}
+        <li>
+          <h3>Google Cybersecurity Certificate</h3>
+          <p>Google</p>
+          <p>April 2024</p>
+        </li>
+        <li>
+          <h3>Security+ Certification</h3>
+          <p>CompTIA</p>
+          <p>June 2024</p>
+        </li>
       </ul>
     </section>
   );

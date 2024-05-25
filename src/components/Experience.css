@@ -1,27 +1,35 @@
 .experience {
-    margin: 20px 0;
-  }
-  
-  .experience h2 {
-    font-size: 24px;
-  }
-  
-  .experience ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .experience li {
-    margin-bottom: 15px;
-  }
-  
-  .experience h3 {
-    font-size: 18px;
-    margin: 0;
-  }
-  
-  .experience p {
-    font-size: 14px;
-    margin: 5px 0;
-  }
-  
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.experience h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience li {
+  margin-bottom: 25px;
+}
+
+.experience h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.experience p {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.experience .job-details {
+  margin-left: 20px;
+}

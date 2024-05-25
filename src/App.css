@@ -8,11 +8,13 @@
 
 section {
   padding: 60px 0px;
+  margin-top: -50px;
 }
 
 #header {
-  padding-top: 100px; /* Extra padding for the top section */
-  margin-bottom: -160px;
+  padding: 100px 0px;
+  padding-top: 150px;
+  margin-bottom: -200px;
 }
 
 

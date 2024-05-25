@@ -1,0 +1,37 @@
+.projects {
+    margin: 20px 0;
+  }
+  
+  .projects h2 {
+    font-size: 24px;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin-bottom: 15px;
+  }
+  
+  .projects h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .projects p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .projects a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .projects a:hover {
+    text-decoration: underline;
+  }
+  

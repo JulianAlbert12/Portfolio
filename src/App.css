@@ -2,10 +2,19 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 0 auto;
 }
+
+section {
+  padding: 60px 0px;
+}
+
+#header {
+  padding-top: 100px; /* Extra padding for the top section */
+  margin-bottom: -160px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

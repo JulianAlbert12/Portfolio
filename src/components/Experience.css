@@ -1,0 +1,27 @@
+.experience {
+    margin: 20px 0;
+  }
+  
+  .experience h2 {
+    font-size: 24px;
+  }
+  
+  .experience ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .experience li {
+    margin-bottom: 15px;
+  }
+  
+  .experience h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .experience p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  

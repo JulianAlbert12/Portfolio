@@ -9,7 +9,7 @@ const Projects = () => {
         <li>
           <h3>Project Title</h3>
           <p>Project Description</p>
-          <a href="https://github.com/your-username/project-link">GitHub Link</a>
+          <a href="github.com/JulianAlbert12">GitHub Link</a>
         </li>
         {/* Add more projects as needed */}
       </ul>

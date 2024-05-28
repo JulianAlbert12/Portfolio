@@ -12,9 +12,9 @@
   }
   
   .about p {
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center; /* Align text in the center */
+    font-size: 14px;
+    text-align: center; 
     margin: 0 70px; /* Add margin for spacing */
+    color: #555;
   }
   

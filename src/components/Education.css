@@ -1,5 +1,6 @@
 .education {
     margin: 20px 0;
+    background-color: #f6f6f6;
   }
   
   .education h2 {
@@ -12,7 +13,7 @@
   }
   
   .education li {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
   
   .education h3 {
@@ -23,5 +24,6 @@
   .education p {
     font-size: 14px;
     margin: 5px 0;
+    color: #555;
   }
   

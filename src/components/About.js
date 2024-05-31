@@ -11,6 +11,9 @@ const About = () => {
       <p>
         With a customer service and sales background, I bring strong problem-solving skills and attention to detail to my work.
       </p>
+      <p>
+        <a href="path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">View My Resume</a>
+      </p>
     </section>
   );
 };

@@ -21,7 +21,7 @@
 }
 
 .header-text h1 {
-  font-size: 46px; /* Adjust the size as needed */
+  font-size: 46px;
   letter-spacing: 1.5px;
   word-spacing: 5px;
   margin: 0;
@@ -38,7 +38,7 @@
 }
 
 .header-image img {
-  width: 300px; /* Adjust the size as needed */
+  width: 300px;
   border-radius: 0;
   margin-bottom: -10px;
 }
@@ -52,21 +52,30 @@
 
 .header-logos a {
   display: inline-block;
-  width: 30px; /* Adjust the size as needed */
-  height: 30px; /* Ensure width and height are the same */
+  width: 30px;
+  height: 30px;
   background-color: #f6f6f6;
-  padding: 7px; /* Adjust padding for smaller circles */
-  border-radius: 50%; /* Set border-radius to 50% for perfect circle */
-  transition: transform 0.4s ease, border 0.4s ease; /* Apply smooth transitions */
+  padding: 7px;
+  border-radius: 50%;
+  transition: transform 0.4s ease, border 0.4s ease;
 }
 
 .header-logos img {
-  width: 30px; 
-  height: 30px; /* Keep the same size for uniformity */
+  width: 30px;
+  height: 30px;
 }
 
 .header-logos a:hover {
-  transform: scale(1.1); /* Apply scale transform on hover */
-  border: 1px dashed #c3c3c3; /* Change border style on hover */
+  transform: scale(1.1);
+  border: 1px dashed #c3c3c3;
 }
 
+/* Add this section for smaller screens */
+@media only screen and (max-width: 600px) {
+  .header-content,
+  .header-text,
+  .header-image,
+  .header-logos {
+    max-width: 90%;
+  }
+}

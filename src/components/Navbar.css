@@ -15,7 +15,7 @@
 }
 
 .navbar li {
-  margin: 0 15px;
+  margin: 0 10px; /* Adjust margin for smaller screens */
 }
 
 .navbar a {
@@ -24,8 +24,27 @@
   color: black;
   text-decoration: none;
   margin: 10px 0 0 0;
+  transition: border 0.3s ease, transform 0.3s ease;
 }
 
 .navbar a:hover {
-  border-bottom: 2px solid #333; /* Example: Change border color */
+  border-bottom: 2px solid #333;
+  transform: scale(1.1);
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    justify-content: space-between; /* Align items to the start and end */
+    padding: 0px; /* Adjust padding for smaller screens */
+  }
+
+  .navbar ul {
+    flex-direction: column; /* Display items vertically */
+    align-items: center; /* Align items to the center */
+  }
+
+  .navbar li {
+    margin: 5px 0; /* Adjust margin for smaller screens */
+  }
 }

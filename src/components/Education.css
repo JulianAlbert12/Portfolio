@@ -1,6 +1,9 @@
 .education {
     margin: 20px 0;
     background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .education h2 {

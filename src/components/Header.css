@@ -34,12 +34,13 @@
 .header-image {
   display: flex;
   align-items: flex-end;
+  margin-top: -40px;
 }
 
 .header-image img {
   width: 300px; /* Adjust the size as needed */
   border-radius: 0;
-  margin-bottom: -10px;
+  margin-bottom: 0px;
 }
 
 .header-logos {

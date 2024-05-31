@@ -1,34 +1,31 @@
 .navbar {
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-    background-color: #fff;
-  }
-  
-  .navbar ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar li {
-    margin: 0 15px;
-  }
-  
-  .navbar a {
-    background-color: #fff;
-    border-bottom: 1px dashed #c3c3c3; /* Change border style on hover */
-    padding: 5px;
-    color: black;
-    text-decoration: none;
-    margin: 10px 0 0 0;
-  }
-  
-  .navbar a:hover {
-    text-decoration: underline;
-  }
-  
+  padding: 10px 0;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  background-color: #fff;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0 0 0;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #333; /* Example: Change border color */
+}

@@ -13,7 +13,7 @@
   .skills ul {
     list-style-type: none;
     padding: 0;
-    max-width: 90%; 
+    max-width: 1000px; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -28,3 +28,9 @@
     border-radius: 5px;
   }
   
+  @media only screen and (max-width: 600px) {
+    .skills ul {
+      max-width: 90%; 
+    }
+    
+  }

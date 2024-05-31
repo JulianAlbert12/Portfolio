@@ -14,20 +14,23 @@ section {
 
 #header {
   padding: 50px 0px;
-  padding-top: 80px;
-  margin-bottom: -71px;
+  padding-top: 100px;
+  margin-bottom: -90px;
 }
 
-#about {
+#education,
+#projects {
+  margin: 0;
   padding: 0px 0;
 }
 
+#about,
 #experience,
 #education,
 #skills,
 #projects,
 #contact {
   margin: 0;
-  padding: 0px 0;
+  padding: 20px 0;
 }
 

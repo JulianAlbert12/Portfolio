@@ -40,26 +40,33 @@
 .header-image img {
   width: 300px; /* Adjust the size as needed */
   border-radius: 0;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
 }
 
 .header-logos {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 15px;
 }
 
 .header-logos a {
   display: inline-block;
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Ensure width and height are the same */
+  background-color: #f6f6f6;
+  padding: 7px; /* Adjust padding for smaller circles */
+  border-radius: 50%; /* Set border-radius to 50% for perfect circle */
+  transition: transform 0.4s ease, border 0.4s ease; /* Apply smooth transitions */
 }
 
 .header-logos img {
-  width: 25px; /* Adjust the size as needed */
-  height: 25px; /* Keep the same size for uniformity */
-  transition: transform 0.3s ease;
+  width: 30px; 
+  height: 30px; /* Keep the same size for uniformity */
 }
 
-.header-logos img:hover {
-  transform: scale(1.1);
+.header-logos a:hover {
+  transform: scale(1.1); /* Apply scale transform on hover */
+  border: 1px dashed #c3c3c3; /* Change border style on hover */
 }
+

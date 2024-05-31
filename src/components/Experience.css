@@ -34,6 +34,12 @@
     margin-right: auto;
   }
 
+  .experience img {
+    width: 10px;
+    height: 10px;
+    filter: invert(30%);
+  }
+
   @media only screen and (max-width: 600px) {
     .experience p {
       max-width: 90%;

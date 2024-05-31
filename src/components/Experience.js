@@ -28,7 +28,7 @@ const Experience = () => {
           <h3>Sales Associate</h3>
           <p>Sports Basement</p>
           <p>April 2018 - December 2022</p>
-          <p>Assisted in POS system, fulfillment, receiving, and merchandising operations. Developed and instructed new staff members.</p>
+          <p>Delivered exceptional customer service. Assisted in POS system, fulfillment, receiving, and merchandising operations. Developed and instructed new staff members.</p>
         </li>
       </ul>
     </section>

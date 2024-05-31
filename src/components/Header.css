@@ -22,7 +22,7 @@
 
 .header-text h1 {
   font-size: 46px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   word-spacing: 5px;
   margin: 0;
 }
@@ -70,12 +70,40 @@
   border: 1px dashed #c3c3c3;
 }
 
-/* Add this section for smaller screens */
 @media only screen and (max-width: 600px) {
   .header-content,
   .header-text,
   .header-image,
   .header-logos {
-    max-width: 90%;
+    max-width: 100%;
+  }
+
+  .header-text h1 {
+    font-size: 28px; /* Reduce the font size */
+  }
+
+  .header-text p {
+    font-size: 12px; /* Reduce the font size */
+  }
+
+  .header-image img {
+    margin-left: 5px;
+    width: 170px; /* Reduce the image width */
+  }
+
+  .header-logos a {
+    width: 25px; /* Reduce the logo size */
+    height: 25px;
+    padding: 4px; /* Adjust padding for smaller circles */
+  }
+
+  .header-logos img {
+    width: 25px; /* Reduce the logo size */
+    height: 25px;
+  }
+
+  .header {
+    padding: 10px;
+    margin-bottom: 20px;
   }
 }

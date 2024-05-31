@@ -35,16 +35,21 @@
 /* Media Query for smaller screens */
 @media only screen and (max-width: 600px) {
   .navbar {
-    justify-content: space-between; /* Align items to the start and end */
+    position: fixed;
     padding: 0px; /* Adjust padding for smaller screens */
+
   }
 
   .navbar ul {
-    flex-direction: column; /* Display items vertically */
     align-items: center; /* Align items to the center */
   }
 
   .navbar li {
     margin: 5px 0; /* Adjust margin for smaller screens */
   }
+  .navbar a {
+    font-size: 11px;
+    font-weight: 400;
+  }
 }
+

@@ -1,22 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 
-const Contact = () => {
-  return (
-    <section className="contact">
-      <h2>Contact</h2>
-      <p>Julian Albert</p>
-      <p>Novato, CA, United States, 94947</p>
-      <p>Phone: 415-320-5634</p>
-      <p>Email: julianalbert0012@gmail.com</p>
-      <p>
-        LinkedIn: <a href="https://linkedin.com/in/julian-albert-6a1761258" target="_blank" rel="noopener noreferrer">linkedin.com/in/julian-albert-6a1761258</a>
-      </p>
-      <p>
-        GitHub: <a href="https://github.com/JulianAlbert12" target="_blank" rel="noopener noreferrer">github.com/JulianAlbert12</a>
-      </p>
-    </section>
-  );
-};
+export default function Contact() {
+  const [result, setResult] = useState("");
 
-export default Contact;
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "bd1782ed-000c-4fb6-b3f6-854d312d60ff");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
+  return (
+    <div className="contact-form">
+      <h2>Contact</h2>
+      <form onSubmit={onSubmit}>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit Form</button>
+      </form>
+      <span>{result}</span>
+    </div>
+  );
+}

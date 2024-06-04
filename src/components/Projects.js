@@ -27,8 +27,8 @@ const Projects = () => {
               <a href="https://github.com/JulianAlbert12/User-Authentication" className="project-link">
                 <h3>User-Authenticaion</h3>
                 <p>This project delved deep into user authentication in web apps, focusing on ensuring maximum security. By utilizing Firebase Authentication and React.js,
-                   I explored how to implement authentication features effectively. It was a hands-on journey where I learned and applied the key security measures needed 
-                   to protect user data and ensure only authorized access. My goal was to make the authentication system rock-solid and reliable.</p>
+                   I explored how to implement authentication features effectively. I learned and applied the key security measures needed 
+                   to protect user data and ensure only authorized access. My goal was to make the authentication system secure and reliable.</p>
                   <p classname="read-more">See more</p>
               </a>
             </div>

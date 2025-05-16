@@ -19,7 +19,12 @@ const Education = () => {
         <li>
           <h3>Security+ Certification</h3>
           <p>CompTIA</p>
-          <p>June 2024</p>
+          <p>May 2025</p>
+        </li>
+        <li>
+          <h3>Network+ Certification</h3>
+          <p>CompTIA</p>
+          <p>June 2025</p>
         </li>
       </ul>
     </section>

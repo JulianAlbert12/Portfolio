@@ -8,7 +8,7 @@ const About = () => {
 
   useEffect(() => {
     if (contentRef.current) {
-      setContentHeight(showMore ? `${contentRef.current.scrollHeight}px` : '60px'); // Adjust initial height to match CSS
+      setContentHeight(showMore ? `${contentRef.current.scrollHeight}px` : '60px');
     }
   }, [showMore]);
 
@@ -22,19 +22,19 @@ const About = () => {
         <h2>About Me</h2>
         <div className={`content ${showMore ? 'show-more' : ''}`} style={{ maxHeight: contentHeight }} ref={contentRef}>
           <p>
-            Currently studying computer science with a focus on computer security at the University of Oregon, gaining expertise in securing computer systems and networks. As a soon-to-be graduate, I am eager to apply my diverse skill set and passion for technology to entry-level IT roles.
+            I’m an IT professional with a background in computer science and a strong focus on cybersecurity. I’ve built a solid foundation in securing systems, managing networks, and solving complex technical issues through both academic training and hands-on experience.
           </p>
           <p>
-            Throughout my academic journey, I have cultivated a strong foundation in computer science, with a focus on computer security, network architecture, and cryptography. My coursework has equipped me with practical knowledge in troubleshooting hardware and software issues, configuring network devices, and implementing security measures to safeguard sensitive data.
+            My skill set includes configuring and maintaining network infrastructure, supporting end users, deploying hardware, and implementing security best practices. I've worked in IT support roles where I was responsible for troubleshooting hardware/software issues, managing user accounts, and improving operational workflows.
           </p>
           <p>
-            In addition to my academic pursuits, I have gained hands-on experience in customer service roles, where I developed excellent communication and problem-solving skills. These skills, coupled with my technical expertise, make me well-prepared to excel in IT helpdesk/support roles, where I can leverage my ability to assist users with technical issues and provide timely resolutions.
+            Outside of my day-to-day tasks, I’ve earned certifications like CompTIA Security+ and Google Cybersecurity, which enhanced my understanding of security principles, incident response, and threat mitigation strategies.
           </p>
           <p>
-            Furthermore, my passion for cybersecurity drives my interest in pursuing entry-level security analyst positions. I am eager to apply my knowledge of security principles and protocols to identify and mitigate potential security threats, ensuring the integrity and confidentiality of organizational data.
+            I'm passionate about staying current in a rapidly evolving field and always eager to learn. My goal is to grow into cybersecurity analyst or infrastructure roles, where I can contribute to protecting organizational assets and supporting scalable, secure systems.
           </p>
           <p>
-            I am enthusiastic about the opportunity to contribute to a dynamic IT team and continue learning and growing in the field of information technology.
+            I’m excited to bring my technical skills, problem-solving mindset, and collaborative spirit to a forward-thinking tech team.
           </p>
         </div>
         <button className="button" onClick={toggleShowMore}>

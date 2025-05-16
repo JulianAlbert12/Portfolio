@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header-content">
         <div className="header-text">
           <h1>Julian Albert</h1>
-          <p>Student passionate about Cybersecurity</p>
+          <p>IT proffesionall with a strong interest in protecting systems and data.</p>
           <div className="header-logos">
             <a href="https://github.com/JulianAlbert12" target="_blank" rel="noopener noreferrer">
               <img src={`${process.env.PUBLIC_URL}/github.png`} alt="GitHub" />
